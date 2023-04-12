@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/beego/beego/v2/server/web"
+	"github.com/tianmaotalk/beego/v2/server/web"
 )
 
 const (

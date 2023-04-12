@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/adapter/context"
+	"github.com/tianmaotalk/beego/v2/adapter/context"
 )
 
 // Demo is used to test, it's empty

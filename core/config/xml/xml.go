@@ -20,8 +20,8 @@
 //
 // Usage:
 //  import(
-//    _ "github.com/beego/beego/v2/core/config/xml"
-//      "github.com/beego/beego/v2/core/config"
+//    _ "github.com/tianmaotalk/beego/v2/core/config/xml"
+//      "github.com/tianmaotalk/beego/v2/core/config"
 //  )
 //
 //  cnf, err := config.NewConfig("xml", "config.xml")
@@ -40,9 +40,9 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/beego/beego/v2/core/config"
-	"github.com/beego/beego/v2/core/logs"
 	"github.com/beego/x2j"
+	"github.com/tianmaotalk/beego/v2/core/config"
+	"github.com/tianmaotalk/beego/v2/core/logs"
 )
 
 // Config is a xml config parser and implements Config interface.

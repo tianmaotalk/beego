@@ -19,7 +19,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/beego/beego/v2/client/orm"
+	"github.com/tianmaotalk/beego/v2/client/orm"
 )
 
 // DriverType database driver constant int.

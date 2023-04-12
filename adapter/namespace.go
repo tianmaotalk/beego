@@ -17,9 +17,9 @@ package adapter
 import (
 	"net/http"
 
-	adtContext "github.com/beego/beego/v2/adapter/context"
-	"github.com/beego/beego/v2/server/web"
-	"github.com/beego/beego/v2/server/web/context"
+	adtContext "github.com/tianmaotalk/beego/v2/adapter/context"
+	"github.com/tianmaotalk/beego/v2/server/web"
+	"github.com/tianmaotalk/beego/v2/server/web/context"
 )
 
 type namespaceCond func(*adtContext.Context) bool

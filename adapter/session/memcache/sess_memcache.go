@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/server/web/session/memcache"
-//   "github.com/beego/beego/v2/server/web/session"
+//   _ "github.com/tianmaotalk/beego/v2/server/web/session/memcache"
+//   "github.com/tianmaotalk/beego/v2/server/web/session"
 // )
 //
 //	func init() {
@@ -35,8 +35,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/beego/beego/v2/adapter/session"
-	beemem "github.com/beego/beego/v2/server/web/session/memcache"
+	"github.com/tianmaotalk/beego/v2/adapter/session"
+	beemem "github.com/tianmaotalk/beego/v2/server/web/session/memcache"
 )
 
 // SessionStore memcache session store

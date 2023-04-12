@@ -15,7 +15,7 @@
 package logs
 
 import (
-	"github.com/beego/beego/v2/core/logs"
+	"github.com/tianmaotalk/beego/v2/core/logs"
 )
 
 // AccessLogRecord struct for holding access log data.

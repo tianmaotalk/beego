@@ -17,7 +17,7 @@
 package env
 
 import (
-	"github.com/beego/beego/v2/core/config/env"
+	"github.com/tianmaotalk/beego/v2/core/config/env"
 )
 
 // Get returns a value by key.

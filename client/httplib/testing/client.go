@@ -15,7 +15,7 @@
 package testing
 
 import (
-	"github.com/beego/beego/v2/client/httplib"
+	"github.com/tianmaotalk/beego/v2/client/httplib"
 )
 
 var (

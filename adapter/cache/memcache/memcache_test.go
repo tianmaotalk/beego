@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/adapter/cache"
+	"github.com/tianmaotalk/beego/v2/adapter/cache"
 )
 
 func TestMemcacheCache(t *testing.T) {

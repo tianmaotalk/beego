@@ -15,8 +15,8 @@
 // Package authz provides handlers to enable ACL, RBAC, ABAC authorization support.
 // Simple Usage:
 //	import(
-//		"github.com/beego/beego/v2"
-//		"github.com/beego/beego/v2/server/web/filter/authz"
+//		"github.com/tianmaotalk/beego/v2"
+//		"github.com/tianmaotalk/beego/v2/server/web/filter/authz"
 //		"github.com/casbin/casbin"
 //	)
 //
@@ -44,10 +44,10 @@ import (
 
 	"github.com/casbin/casbin"
 
-	beego "github.com/beego/beego/v2/adapter"
-	"github.com/beego/beego/v2/adapter/context"
-	beecontext "github.com/beego/beego/v2/server/web/context"
-	"github.com/beego/beego/v2/server/web/filter/authz"
+	beego "github.com/tianmaotalk/beego/v2/adapter"
+	"github.com/tianmaotalk/beego/v2/adapter/context"
+	beecontext "github.com/tianmaotalk/beego/v2/server/web/context"
+	"github.com/tianmaotalk/beego/v2/server/web/filter/authz"
 )
 
 // NewAuthorizer returns the authorizer.

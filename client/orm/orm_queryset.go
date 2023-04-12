@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/beego/beego/v2/client/orm/clauses/order_clause"
-	"github.com/beego/beego/v2/client/orm/hints"
+	"github.com/tianmaotalk/beego/v2/client/orm/clauses/order_clause"
+	"github.com/tianmaotalk/beego/v2/client/orm/hints"
 )
 
 type colValue struct {

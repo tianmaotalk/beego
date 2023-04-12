@@ -16,7 +16,7 @@
 //
 // Usage:
 // import(
-//   "github.com/beego/beego/v2/server/web/session"
+//   "github.com/tianmaotalk/beego/v2/server/web/session"
 // )
 //
 //	func init() {
@@ -31,7 +31,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/beego/beego/v2/server/web/session"
+	"github.com/tianmaotalk/beego/v2/server/web/session"
 )
 
 // Store contains all data for one session process with specific id.

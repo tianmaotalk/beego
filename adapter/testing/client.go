@@ -14,7 +14,7 @@
 
 package testing
 
-import "github.com/beego/beego/v2/client/httplib/testing"
+import "github.com/tianmaotalk/beego/v2/client/httplib/testing"
 
 // TestHTTPRequest beego test request client
 type TestHTTPRequest testing.TestHTTPRequest

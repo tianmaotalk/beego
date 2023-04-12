@@ -17,7 +17,7 @@ package utils
 import (
 	"io"
 
-	"github.com/beego/beego/v2/core/utils"
+	"github.com/tianmaotalk/beego/v2/core/utils"
 )
 
 // Email is the type used for email messages

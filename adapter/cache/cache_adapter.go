@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/beego/beego/v2/client/cache"
+	"github.com/tianmaotalk/beego/v2/client/cache"
 )
 
 type newToOldCacheAdapter struct {

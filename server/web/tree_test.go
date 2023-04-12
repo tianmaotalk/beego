@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/beego/beego/v2/server/web/context"
+	"github.com/tianmaotalk/beego/v2/server/web/context"
 )
 
 type testInfo struct {

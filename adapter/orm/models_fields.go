@@ -17,7 +17,7 @@ package orm
 import (
 	"time"
 
-	"github.com/beego/beego/v2/client/orm"
+	"github.com/tianmaotalk/beego/v2/client/orm"
 )
 
 // Define the Type enum

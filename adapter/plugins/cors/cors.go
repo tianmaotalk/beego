@@ -15,8 +15,8 @@
 // Package cors provides handlers to enable CORS support.
 // Usage
 //	import (
-// 		"github.com/beego/beego/v2"
-//		"github.com/beego/beego/v2/server/web/filter/cors"
+// 		"github.com/tianmaotalk/beego/v2"
+//		"github.com/tianmaotalk/beego/v2/server/web/filter/cors"
 // )
 //
 //	func main() {
@@ -36,10 +36,10 @@
 package cors
 
 import (
-	beego "github.com/beego/beego/v2/adapter"
-	"github.com/beego/beego/v2/adapter/context"
-	beecontext "github.com/beego/beego/v2/server/web/context"
-	"github.com/beego/beego/v2/server/web/filter/cors"
+	beego "github.com/tianmaotalk/beego/v2/adapter"
+	"github.com/tianmaotalk/beego/v2/adapter/context"
+	beecontext "github.com/tianmaotalk/beego/v2/server/web/context"
+	"github.com/tianmaotalk/beego/v2/server/web/filter/cors"
 )
 
 // Options represents Access Control options.

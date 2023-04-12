@@ -3,9 +3,9 @@ package param
 import (
 	"reflect"
 
-	beecontext "github.com/beego/beego/v2/adapter/context"
-	"github.com/beego/beego/v2/server/web/context"
-	"github.com/beego/beego/v2/server/web/context/param"
+	beecontext "github.com/tianmaotalk/beego/v2/adapter/context"
+	"github.com/tianmaotalk/beego/v2/server/web/context"
+	"github.com/tianmaotalk/beego/v2/server/web/context/param"
 )
 
 // ConvertParams converts http method params to values that will be passed to the method controller as arguments

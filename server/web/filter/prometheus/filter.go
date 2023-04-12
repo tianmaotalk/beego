@@ -22,10 +22,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/beego/beego/v2"
-	"github.com/beego/beego/v2/core/logs"
-	"github.com/beego/beego/v2/server/web"
-	"github.com/beego/beego/v2/server/web/context"
+	"github.com/tianmaotalk/beego/v2"
+	"github.com/tianmaotalk/beego/v2/core/logs"
+	"github.com/tianmaotalk/beego/v2/server/web"
+	"github.com/tianmaotalk/beego/v2/server/web/context"
 )
 
 const unknownRouterPattern = "UnknownRouterPattern"

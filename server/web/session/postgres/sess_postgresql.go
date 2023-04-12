@@ -38,8 +38,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/server/web/session/postgresql"
-//   "github.com/beego/beego/v2/server/web/session"
+//   _ "github.com/tianmaotalk/beego/v2/server/web/session/postgresql"
+//   "github.com/tianmaotalk/beego/v2/server/web/session"
 // )
 //
 //	func init() {
@@ -58,7 +58,7 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/beego/beego/v2/server/web/session"
+	"github.com/tianmaotalk/beego/v2/server/web/session"
 )
 
 var postgresqlpder = &Provider{}

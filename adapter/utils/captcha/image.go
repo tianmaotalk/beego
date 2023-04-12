@@ -17,7 +17,7 @@ package captcha
 import (
 	"io"
 
-	"github.com/beego/beego/v2/server/web/captcha"
+	"github.com/tianmaotalk/beego/v2/server/web/captcha"
 )
 
 // Image struct

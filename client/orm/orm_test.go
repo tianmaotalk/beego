@@ -34,8 +34,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/client/orm/clauses/order_clause"
-	"github.com/beego/beego/v2/client/orm/hints"
+	"github.com/tianmaotalk/beego/v2/client/orm/clauses/order_clause"
+	"github.com/tianmaotalk/beego/v2/client/orm/hints"
 )
 
 var _ = os.PathSeparator

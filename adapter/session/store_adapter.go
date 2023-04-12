@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/beego/beego/v2/server/web/session"
+	"github.com/tianmaotalk/beego/v2/server/web/session"
 )
 
 type NewToOldStoreAdapter struct {

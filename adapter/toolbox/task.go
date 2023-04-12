@@ -19,7 +19,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/beego/beego/v2/task"
+	"github.com/tianmaotalk/beego/v2/task"
 )
 
 // The bounds for each field.

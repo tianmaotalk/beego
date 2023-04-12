@@ -15,5 +15,5 @@
 package config
 
 import (
-	_ "github.com/beego/beego/v2/core/config/json"
+	_ "github.com/tianmaotalk/beego/v2/core/config/json"
 )

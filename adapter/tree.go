@@ -15,9 +15,9 @@
 package adapter
 
 import (
-	"github.com/beego/beego/v2/adapter/context"
-	"github.com/beego/beego/v2/server/web"
-	beecontext "github.com/beego/beego/v2/server/web/context"
+	"github.com/tianmaotalk/beego/v2/adapter/context"
+	"github.com/tianmaotalk/beego/v2/server/web"
+	beecontext "github.com/tianmaotalk/beego/v2/server/web/context"
 )
 
 // Tree has three elements: FixRouter/wildcard/leaves

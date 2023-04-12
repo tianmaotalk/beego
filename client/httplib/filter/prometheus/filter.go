@@ -23,7 +23,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/beego/beego/v2/client/httplib"
+	"github.com/tianmaotalk/beego/v2/client/httplib"
 )
 
 type FilterChainBuilder struct {

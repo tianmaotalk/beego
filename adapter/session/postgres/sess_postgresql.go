@@ -38,8 +38,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/server/web/session/postgresql"
-//   "github.com/beego/beego/v2/server/web/session"
+//   _ "github.com/tianmaotalk/beego/v2/server/web/session/postgresql"
+//   "github.com/tianmaotalk/beego/v2/server/web/session"
 // )
 //
 //	func init() {
@@ -55,8 +55,8 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"github.com/beego/beego/v2/adapter/session"
-	"github.com/beego/beego/v2/server/web/session/postgres"
+	"github.com/tianmaotalk/beego/v2/adapter/session"
+	"github.com/tianmaotalk/beego/v2/server/web/session/postgres"
 )
 
 // SessionStore postgresql session store

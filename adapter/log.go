@@ -17,7 +17,7 @@ package adapter
 import (
 	"strings"
 
-	"github.com/beego/beego/v2/core/logs"
+	"github.com/tianmaotalk/beego/v2/core/logs"
 )
 
 // Log levels to control the logging output.

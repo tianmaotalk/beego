@@ -28,8 +28,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/beego/beego/v2/server/web/session/mysql"
-//   "github.com/beego/beego/v2/server/web/session"
+//   _ "github.com/tianmaotalk/beego/v2/server/web/session/mysql"
+//   "github.com/tianmaotalk/beego/v2/server/web/session"
 // )
 //
 //	func init() {
@@ -45,8 +45,8 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/beego/beego/v2/adapter/session"
-	"github.com/beego/beego/v2/server/web/session/mysql"
+	"github.com/tianmaotalk/beego/v2/adapter/session"
+	"github.com/tianmaotalk/beego/v2/server/web/session/mysql"
 )
 
 var (

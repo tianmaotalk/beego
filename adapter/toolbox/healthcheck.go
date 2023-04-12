@@ -30,7 +30,7 @@
 package toolbox
 
 import (
-	"github.com/beego/beego/v2/core/admin"
+	"github.com/tianmaotalk/beego/v2/core/admin"
 )
 
 // AdminCheckList holds health checker map

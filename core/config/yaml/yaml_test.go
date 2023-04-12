@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/core/config"
+	"github.com/tianmaotalk/beego/v2/core/config"
 )
 
 func TestYaml(t *testing.T) {
