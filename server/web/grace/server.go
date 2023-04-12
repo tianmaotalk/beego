@@ -129,11 +129,11 @@ func (srv *Server) ListenTLS(certFile string, keyFile string) (net.Listener, err
 	}
 
 	srv.TLSConfig.Certificates = make([]tls.Certificate, 1)
-	cert, err := tls.LoadX509KeyPair(certFile, keyFile)
-	if err != nil {
-		return nil, err
-	}
-	srv.TLSConfig.Certificates[0] = cert
+	//cert, err := tls.LoadX509KeyPair(certFile, keyFile)
+	//if err != nil {
+	//	return nil, err
+	//}
+	//srv.TLSConfig.Certificates[0] = cert
 
 	go srv.handleSignals()
 
